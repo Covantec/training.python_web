@@ -45,6 +45,17 @@ source_suffix = '.rst'
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
 
+# Directories in which to search for additional message catalogs (see language),
+# relative to the source directory. The directories on this path are searched by
+# the standard gettext module.
+#
+# The text domain of individual documents depends on gettext_compact
+locale_dirs = ['_locales/']
+
+# If true, a document’s text domain is its docname if it is a top-level project
+# file and its very base directory otherwise.
+gettext_compact = True # or False
+
 # The master toctree document.
 master_doc = 'index'
 

@@ -1,0 +1,383 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-2016, Cris Ewing
+# This file is distributed under the same license as the Internet Programming with Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Internet Programming with Python 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-06 08:43-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../readings.rst:5
+msgid "Supplementary Course Readings"
+msgstr ""
+
+#: ../readings.rst:12
+msgid "Web programming is a deep pool. There's more to cover than a 10-session course could ever hope to accomplish. To that end, I've compiled a list of related readings that will support the information you'll learn in class. Think of this as supplemental materials. You can read it at your leisure to help increase both the depth and breadth of your knowledge."
+msgstr ""
+
+#: ../readings.rst:18
+msgid "The readings are organized like the class, by session and topic."
+msgstr ""
+
+#: ../readings.rst:22
+msgid "Session 1 - TCP/IP and Sockets"
+msgstr ""
+
+#: ../readings.rst:24
+msgid "`Wikipedia - Internet Protocol Suite <http://en.wikipedia.org/wiki/Internet_Protocol_Suite>`_"
+msgstr ""
+
+#: ../readings.rst:26
+msgid "`Kessler - TCP/IP (sections 1 and 2) <http://www.garykessler.net/library/tcpip.html>`_"
+msgstr ""
+
+#: ../readings.rst:28
+msgid "`Wikipedia - Domain Name System <http://en.wikipedia.org/wiki/Domain_Name_System>`_"
+msgstr ""
+
+#: ../readings.rst:30
+msgid "`Wikipedia - Internet Sockets <http://en.wikipedia.org/wiki/Network_socket>`_"
+msgstr ""
+
+#: ../readings.rst:32
+msgid "`Wikipedia - Berkeley socket interface <http://en.wikipedia.org/wiki/Berkeley_sockets>`_"
+msgstr ""
+
+#: ../readings.rst:35
+msgid "If you want to know a bit more about the lower layers of the stack, you might find the following readings enlightening:"
+msgstr ""
+
+#: ../readings.rst:38
+msgid "**Transport Layer**"
+msgstr ""
+
+#: ../readings.rst:40
+msgid "`Wikipedia - Universal Datagram Protocol (UDP) <http://en.wikipedia.org/wiki/User_Datagram_Protocol>`_"
+msgstr ""
+
+#: ../readings.rst:42
+msgid "`Wikipedia - Transmission Control Protocol (TCP) <http://en.wikipedia.org/wiki/Transmission_Control_Protocol>`_"
+msgstr ""
+
+#: ../readings.rst:45
+msgid "**Internet Layer**"
+msgstr ""
+
+#: ../readings.rst:47
+msgid "`Wikipedia - Internet Protocol (IP) <http://en.wikipedia.org/wiki/Internet_Protocol>`_"
+msgstr ""
+
+#: ../readings.rst:49
+msgid "`Wikipedia - IPv4 Packet Structure <http://en.wikipedia.org/wiki/IPv4#Packet_structure>`_"
+msgstr ""
+
+#: ../readings.rst:51
+msgid "`Wikipedia - IPv6 Packet Structure <http://en.wikipedia.org/wiki/IPv6_packet#Fixed_header>`_"
+msgstr ""
+
+#: ../readings.rst:54
+msgid "**Link Layer**"
+msgstr ""
+
+#: ../readings.rst:56
+msgid "`Wikipedia - Link Layer Protocols <http://en.wikipedia.org/wiki/Link_Layer#Link_layer_protocols>`_"
+msgstr ""
+
+#: ../readings.rst:59
+msgid "In addition, you may find it interesting to take a look at ZeroMQ, a next-generation implementation of the socket concept built with parallel and networked computing in mind:"
+msgstr ""
+
+#: ../readings.rst:63
+msgid "`ZeroMQ Guide, Chapter 1 <http://zguide.zeromq.org/py:all#Chapter-Basics>`_"
+msgstr ""
+
+#: ../readings.rst:67
+msgid "Session 2 - Web Protocols"
+msgstr ""
+
+#: ../readings.rst:69
+msgid "`Python Standard Library Internet Protocols <http://docs.python.org/2/library/internet.html>`_"
+msgstr ""
+
+#: ../readings.rst:71
+msgid "An introduction to the HTTP protocol: `HTTP Made Really Easy <http://www.jmarshall.com/easy/http/>`_"
+msgstr ""
+
+#: ../readings.rst:74
+msgid "Python offers a number of external libraries that offer extended support for covered web protocols, or support for protocols not covered in the Standard Library:"
+msgstr ""
+
+#: ../readings.rst:78
+#: ../readings.rst:166
+msgid "httplib2_ - A comprehensive HTTP client library that supports many features left out of other HTTP libraries."
+msgstr ""
+
+#: ../readings.rst:80
+msgid "requests_ - \"... an Apache2 Licensed HTTP library, written in Python, for human beings.\""
+msgstr ""
+
+#: ../readings.rst:82
+msgid "paramiko_ - \"a module for python 2.5 or greater that implements the SSH2 protocol for secure (encrypted and authenticated) connections to remote machines\""
+msgstr ""
+
+#: ../readings.rst:90
+msgid "For a historical perspective on how protocols can change (as well as how they remain unchanged) over time, skim these specifications for HTTP and SMTP:"
+msgstr ""
+
+#: ../readings.rst:93
+msgid "`HTTP/0.9 <http://www.w3.org/Protocols/HTTP/AsImplemented.html>`_"
+msgstr ""
+
+#: ../readings.rst:94
+msgid "`HTTP - as defined in 1992 <http://www.w3.org/Protocols/HTTP/HTTP2.html>`_"
+msgstr ""
+
+#: ../readings.rst:95
+msgid "`Hypertext Transfer Protocol -- HTTP/1.0 <http://www.w3.org/Protocols/rfc1945/rfc1945>`_"
+msgstr ""
+
+#: ../readings.rst:97
+msgid "`Hypertext Transfer Protocol -- HTTP/1.1 <http://www.w3.org/Protocols/rfc2616/rfc2616>`_"
+msgstr ""
+
+#: ../readings.rst:100
+msgid "`RFC 821 - SMTP (initial) <http://tools.ietf.org/html/rfc821>`_"
+msgstr ""
+
+#: ../readings.rst:101
+msgid "`RFC 5321 - SMTP (latest) <http://tools.ietf.org/html/rfc5321>`_"
+msgstr ""
+
+#: ../readings.rst:105
+msgid "Session 3 - CGI and WSGI"
+msgstr ""
+
+#: ../readings.rst:107
+msgid "`CGI tutorial`_ - Read the following sections: Hello World, Debugging, Form. Other sections optional. Follow along using CGIHTTPServer."
+msgstr ""
+
+#: ../readings.rst:109
+msgid "`WSGI tutorial`_ - Follow along using wsgiref."
+msgstr ""
+
+#: ../readings.rst:110
+msgid "`CGI module`_ - utilities for CGI scripts, mostly form and query string parsing"
+msgstr ""
+
+#: ../readings.rst:112
+msgid "`Parse URLS into components <http://docs.python.org/release/2.6.5/library/urlparse.html>`_"
+msgstr ""
+
+#: ../readings.rst:114
+msgid "`CGIHTTPServer`_ - python -m CGIHTTPServer"
+msgstr ""
+
+#: ../readings.rst:115
+msgid "`WSGI Utilities and Reference implementation <http://docs.python.org/release/2.6.5/library/wsgiref.html>`_"
+msgstr ""
+
+#: ../readings.rst:117
+msgid "`WSGI 1.0 specification <http://www.python.org/dev/peps/pep-0333/>`_"
+msgstr ""
+
+#: ../readings.rst:118
+msgid "`WSGI 1.0.1 (Python 3 support) <http://python.org/dev/peps/pep-3333/>`_"
+msgstr ""
+
+#: ../readings.rst:119
+msgid "`test WSGI server, like cgi.test() <http://hg.moinmo.in/moin/1.8/raw-file/tip/wiki/server/test.wsgi>`_"
+msgstr ""
+
+#: ../readings.rst:127
+msgid "For alternative introductions to WSGI, try these two sources. They are a bit more minimal and may be easier to comprehend off the bat."
+msgstr ""
+
+#: ../readings.rst:130
+msgid "`Getting Started with WSGI`_ - by Armin Ronacher (really solid and quick!)"
+msgstr ""
+
+#: ../readings.rst:131
+msgid "`very minimal introduction to WSGI <http://be.groovie.org/2005/10/07/wsgi_and_wsgi_middleware_is_easy.html>`_"
+msgstr ""
+
+#: ../readings.rst:138
+msgid "Session 4 - APIs and Mashups"
+msgstr ""
+
+#: ../readings.rst:140
+msgid "`Introduction to HTML (from the Mozilla Developer Network) <https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Introduction>`_"
+msgstr ""
+
+#: ../readings.rst:142
+msgid "`Wikipedia's take on 'Web Services' <http://en.wikipedia.org/wiki/Web_service>`_"
+msgstr ""
+
+#: ../readings.rst:144
+msgid "`xmlrpc overview <http://www.xmlrpc.com/>`_"
+msgstr ""
+
+#: ../readings.rst:145
+msgid "`xmlrpc spec (short) <http://www.xmlrpc.com/spec>`_"
+msgstr ""
+
+#: ../readings.rst:146
+msgid "`the SOAP specification <http://www.w3.org/TR/soap/>`_"
+msgstr ""
+
+#: ../readings.rst:147
+msgid "`json overview and spec (short) <http://www.json.org/>`_"
+msgstr ""
+
+#: ../readings.rst:148
+msgid "`How I Explained REST to My Wife (Tomayko 2004) <http://tomayko.com/writings/rest-to-my-wife>`_"
+msgstr ""
+
+#: ../readings.rst:150
+msgid "`A Brief Introduction to REST (Tilkov 2007) <http://www.infoq.com/articles/rest-introduction>`_"
+msgstr ""
+
+#: ../readings.rst:152
+msgid "`Wikipedia on REST <http://en.wikipedia.org/wiki/Representational_State_Transfer>`_"
+msgstr ""
+
+#: ../readings.rst:154
+msgid "`Original REST disertation <http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm>`_"
+msgstr ""
+
+#: ../readings.rst:156
+msgid "`Why HATEOAS - *a simple case study on the often ignored REST constraint* <http://www.slideshare.net/trilancer/why-hateoas-1547275>`_"
+msgstr ""
+
+#: ../readings.rst:159
+msgid "Python offers a number of solid external libraries to support Web Services, both from the side of production and consumption:"
+msgstr ""
+
+#: ../readings.rst:162
+msgid "BeautifulSoup_ - \"You didn't write that awful page. You're just trying to get some data out of it. Right now, you don't really care what HTML is supposed to look like. Neither does this parser.\""
+msgstr ""
+
+#: ../readings.rst:165
+msgid "requests_ - HTTP for humans"
+msgstr ""
+
+#: ../readings.rst:168
+msgid "rpclib_ - a simple, easily extendible soap library that provides several useful tools for creating, publishing and consuming soap web services"
+msgstr ""
+
+#: ../readings.rst:170
+msgid "Suds_ - a lightweight SOAP python client for consuming Web Services."
+msgstr ""
+
+#: ../readings.rst:171
+msgid "restkit_ - an HTTP resource kit for Python. It allows you to easily access to HTTP resource and build objects around it."
+msgstr ""
+
+#: ../readings.rst:183
+msgid "Session 5 - MVC Applications and Data Persistence"
+msgstr ""
+
+#: ../readings.rst:185
+msgid "As we'll be learning about Pyramid over the next three sessions, please take some time to read and digest some of the `copious documentation`_ for thie powerful framework."
+msgstr ""
+
+#: ../readings.rst:189
+msgid "In particular, to cover the topics we address in this session you'll want to read the following:"
+msgstr ""
+
+#: ../readings.rst:192
+msgid "`Pyramid Configuration <http://docs.pylonsproject.org/projects/pyramid/en/latest/api/config.html>`_"
+msgstr ""
+
+#: ../readings.rst:194
+msgid "`Defending Pyramid's Design <http://docs.pylonsproject.org/projects/pyramid/en/latest/designdefense.html>`_"
+msgstr ""
+
+#: ../readings.rst:199
+msgid "You may also wish to read a bit about `SQLAlchemy`_.  In particular you may want to work through the `Object Relational Tutorial`_ to get a more complete understanding of how the SQLAlchemy ORM works."
+msgstr ""
+
+#: ../readings.rst:208
+msgid "Session 6 - Pyramid Views, Renderers and Forms"
+msgstr ""
+
+#: ../readings.rst:210
+msgid "This week we'll be focusing on the connection of an HTTP request to the code that handles that request using `URL Dispatch`_.  Quite a lot is possible with the Pyramid route system.  You may wish to read a bit more about it in one of the following documentation sections:"
+msgstr ""
+
+#: ../readings.rst:215
+msgid "`Route Pattern Syntax <http://docs.pylonsproject.org/docs/pyramid/en/latest/narr/urldispatch.html#route-pattern-syntax>`_ discusses the syntax for pattern matching and extraction in Pyramid routes."
+msgstr ""
+
+#: ../readings.rst:219
+msgid "In Pyramid, the code that handles requests is called `a view`_."
+msgstr ""
+
+#: ../readings.rst:221
+msgid "A view passes data to `a renderer`_, which is responsible for turning the data into a response to send back."
+msgstr ""
+
+#: ../readings.rst:224
+msgid "Getting information from a client to the server is generally handled by `HTML forms`_. Working with forms in a framework like Pyramid can be facilitated by using a *form library* like `WTForms`_."
+msgstr ""
+
+#: ../readings.rst:234
+msgid "For layout and design, CSS will be your tool of choice. There is no better tool for learning CSS than trying things out, but you need a good reference to get started. You can learn a great deal from the `Mozilla Developer Network`_ CSS pages.  I also find `A List Apart`_ and `Smashing Magazine`_ to be fantastic resources."
+msgstr ""
+
+#: ../readings.rst:246
+msgid "Sesstion 7 - Pyramid Authentication and Deployment"
+msgstr ""
+
+#: ../readings.rst:248
+msgid "There are no special readings associated with this week."
+msgstr ""
+
+#: ../readings.rst:252
+msgid "Sessions 8, 9, & 10 - Django"
+msgstr ""
+
+#: ../readings.rst:254
+msgid "Though it's way too much to read in any one sitting (or even in 10 or 20), the Django documentation is excellent and thorough. As a start, take a look at these sections:"
+msgstr ""
+
+#: ../readings.rst:258
+msgid "`Django at a Glance <https://docs.djangoproject.com/en/1.9/intro/overview/>`_ - introduction to the concepts and execution of Django"
+msgstr ""
+
+#: ../readings.rst:262
+msgid "`Quick Install Guide <https://docs.djangoproject.com/en/1.9/intro/install/>`_ - lightweight instructions on installing Django. Use Python 2.7."
+msgstr ""
+
+#: ../readings.rst:266
+msgid "`Django Tutorial <https://docs.djangoproject.com/en/1.9/intro/tutorial01/>`_ - The tutorial covers many of the same concepts we will in class. Go over it to re-enforce the lessons you learn"
+msgstr ""
+
+#: ../readings.rst:270
+msgid "`Using Django <https://docs.djangoproject.com/en/1.9/topics/>`_ - far more in-depth information about core topics in Django. In particular, the installation instructions here can be helpful when you run into trouble."
+msgstr ""
+
+#: ../readings.rst:274
+msgid "Bookmark the `Django Documentation homepage <https://docs.djangoproject.com/en/1.9/>`_. It really is \"everything you need to know about Django\""
+msgstr ""
+
+#: ../readings.rst:278
+msgid "When you have some time, read `Django Design Philosophies <https://docs.djangoproject.com/en/dev/misc/design-philosophies/>`_ - for some well-considered words on why Django is the way it is."
+msgstr ""
+
+#: ../readings.rst:282
+msgid "Conversely, for some well-considered criticisms of Django and the way it is, read this in-depth comparison of SQLAlchemy and the Django ORM by the creator of Flask: `SQLAlchemy and You <http://lucumr.pocoo.org/2011/7/19/sqlachemy-and-you/>`_"
+msgstr ""
+
+#: ../readings.rst:286
+msgid "Or consider viewing `this video <http://www.youtube.com/watch?v=eN7h6ZbzMy0>`_ of a talk given at DjangoCon 2012 by Chris McDonough, one of the driving forces behind the Pyramid framework."
+msgstr ""
+
